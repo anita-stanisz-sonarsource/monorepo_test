@@ -27,9 +27,9 @@ public class TestMain {
   public static void setPermissions(String filePath) throws IOException {
     Set<PosixFilePermission> perms = new HashSet<PosixFilePermission>();
     // user permission
-    perms.add(PosixFilePermission.OWNER_READ);
-    perms.add(PosixFilePermission.OWNER_WRITE);
-    perms.add(PosixFilePermission.OWNER_EXECUTE);
+//    perms.add(PosixFilePermission.OWNER_READ);
+//    perms.add(PosixFilePermission.OWNER_WRITE);
+//    perms.add(PosixFilePermission.OWNER_EXECUTE);
     // group permissions
     perms.add(PosixFilePermission.GROUP_READ);
     perms.add(PosixFilePermission.GROUP_EXECUTE);
