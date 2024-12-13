@@ -12,6 +12,7 @@ import java.util.Set;
 
 public class TestMain {
 
+  
   public static void main(String[] args) throws IOException {
 //    System.out.println("Hel98lo world!");
     setPermissions("aa");
@@ -28,8 +29,8 @@ public class TestMain {
     Set<PosixFilePermission> perms = new HashSet<PosixFilePermission>();
     // user permission
     perms.add(PosixFilePermission.OWNER_READ);
-    perms.add(PosixFilePermission.OWNER_WRITE);
-    perms.add(PosixFilePermission.OWNER_EXECUTE);
+//    perms.add(PosixFilePermission.OWNER_WRITE);
+//    perms.add(PosixFilePermission.OWNER_EXECUTE);
     // group permissions
     perms.add(PosixFilePermission.GROUP_READ);
     perms.add(PosixFilePermission.GROUP_EXECUTE);
